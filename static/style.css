@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px;
+    position: sticky, top;
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: tomato;
+}
+
+.hero {
+    padding: 200px;
+    color: white;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+.hero {
+    background-image: url('images/gunA.jpg');
+}
+
+.bag img {
+    width: 40%;
+    position: relative;
+    left: 50px;
+}
+
+.text-box img {
+    max-width: 100%;
+    height: auto;
+    padding: 1%;
+}
+
+
+
+.text-box {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 2%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.text-box h1,
+.text-box p {
+    margin: 0;
+    color: black;
+    padding: 2px;
+}
+
+button {
+    position: relative;
+    right: 210px;
+    top: 30px;
+    padding: 4px;
+    border-radius: 20px;
+}
+
+button:hover {
+    background-color: tomato;
+    color: white;
+    padding: 5px;
+}
+
+.bag {
+    position: relative;
+    top: 10px;
+    background: rgb(255, 255, 255, 0.8);
+    color: black;
+    border-radius: 10px;
+    padding: 1px;
+}

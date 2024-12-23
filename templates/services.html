@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Services - Guns Zone</title>
+    <link rel="stylesheet" href="static/services.css">
+</head>
+
+<body>
+    <nav>
+        <a href="{{ 'home' }}">Home</a>
+        <a href="{{ 'about' }}">About Us</a>
+        <a href="{{ 'services' }}">Services</a>
+        <a href="{{ 'contact' }}">Contact us</a>
+    </nav>
+    <div class="services">
+        <div class="text-box">
+            <h1>Services</h1>
+            <p>Our offered services related to guns...</p>
+            <img src="static/images/AR.webp" alt="">
+            <p>Replacemennt and repair of above mentioned parts</p>
+        </div>
+        <div class="text-box">
+            <p>We also offer rental and purchase for the following Gun types</p>
+            <li><a href="{{ 'rifles'}}"><img src="static/images/AR16.jpg" alt=""></a></li>
+            <button>
+                <p>Rifles</p>
+            </button>
+            <li><a href="{{ 'shotguns'}}"><img src="static/images/shotgun1.jpg" alt=""></a></li>
+            <button>
+                <p>Shotguns</p>
+            </button>
+            <li id="pistol"><a href="{{ 'pistols'}}"><img src="static/images/pistol.walther.jpg" alt=""></a></li>
+            <button>
+                <p>Pistols</p>
+            </button>
+        </div>
+    </div>
+    <footer style="color: aliceblue;">
+        <p>This website was created as part of an open-ended lab assignment. <strong>Creator: Zayem</strong></p>
+    </footer>
+</body>
+
+</html>
